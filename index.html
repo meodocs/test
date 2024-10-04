@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>即将跳转</title>
+<script type="text/javascript">
+// 当窗口加载完成后执行
+window.onload = function() {
+    // 2秒（2000毫秒）后执行跳转
+    setTimeout(function() {
+        window.location.href = "https://lw232.jsd.heqia.top";
+    }, 2000);
+}
+</script>
+<style>
+/* 定义一个样式让文字出现在左上角 */
+#redirectMessage {
+    position: absolute;
+    top: 10px; /* 距离顶部10像素 */
+    left: 10px; /* 距离左侧10像素 */
+    font-size: 16px; /* 字体大小 */
+    color: #000; /* 文字颜色 */
+}
+</style>
+</head>
+<body>
+    <div id="redirectMessage">正在前往新博客...</div>
+</body>
+</html>
